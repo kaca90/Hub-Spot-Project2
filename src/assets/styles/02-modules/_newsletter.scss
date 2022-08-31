@@ -1,0 +1,88 @@
+.newsletter {
+    background-color: #15A3D9;
+    position: relative;
+    min-height: 650px;
+    width: 100%;
+    margin-top: 100px;
+
+    // bg img
+    &__img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        // z-index: 10;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        overflow: hidden;
+    }
+
+    &__con {
+        padding: 80px 0 105px;
+    }
+
+    &__title {
+        z-index: 5;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 37px;
+        letter-spacing: -0.642857px;
+        color: #FFFFFF;
+        max-width: 477px;
+    }
+
+    &__heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        letter-spacing: -0.642857px;
+        color: #FFFFFF;
+        margin-top: 30px;
+        text-align: right;
+        padding-right: 90px;
+    }
+
+    // form
+
+    &__form {
+        margin-top: 30px;
+    }
+
+    input {
+        background: #F3F3F3;
+        border-radius: 40.5px;
+        border: none;
+        margin-top: 17px;
+        padding: 20px 390px 20px 30px;
+
+
+        &::placeholder {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 44px;
+            text-align: center;
+            color: #19212F;
+            text-align: left;
+
+        }
+    }
+
+    // btn
+    input[type=submit] {
+        background: #19212F;
+        border-radius: 37.5px;
+        color: #FFFFFF;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        z-index: 5;
+        font-size: 14px;
+        line-height: 26px;
+        padding: 23px 83px;
+    }
+
+}

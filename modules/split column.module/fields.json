@@ -1,0 +1,63 @@
+[ {
+  "id" : "640e0bbc-77c8-9ad9-bcb2-09825e0bfbdb",
+  "name" : "image",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "be1afea5-b3ee-7a65-866e-32f0bd49a634",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text Field",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 5,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "39361203-2055-0269-6caf-0c90f6803ecd",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Never lose sight of the mission."
+  }, {
+    "id" : "e67e8bf4-aee3-44f3-d479-371e77244d47",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "We believe we exist to help protect the world by securing the data and information that underpins national security and powers the economy. The stakes are big, and we make every decision and measure every outcome based on how well it serves our mission."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Never lose sight of the mission.",
+    "description" : "We believe we exist to help protect the world by securing the data and information that underpins national security and powers the economy. The stakes are big, and we make every decision and measure every outcome based on how well it serves our mission."
+  }
+} ]

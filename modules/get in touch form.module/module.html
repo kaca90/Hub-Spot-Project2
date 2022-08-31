@@ -1,0 +1,28 @@
+<section class="get-in-touch-form" >
+	<div class="container">
+		<!--     text    -->
+		<div class="get-in-touch-form__heading">{{ module.heading }}</div>
+    <div class="get-in-touch-form__description">{{ module.description }}</div>
+    
+    <div class="get-in-touch-form__con">
+      <!--    company  info  -->
+      <div class="get-in-touch-form__company-heading">{{ module.company_heading }}</div>
+      <div class="get-in-touch-form__company-description">{{ module.company_description }}</div>
+      
+      <!-- form -->
+      {% form
+        form_to_use="{{ module.form_company_info.form_id }}"
+        response_response_type="{{ module.form_company_info.response_type }}"
+        response_message="{{ module.form_company_info.message }}"
+        response_redirect_id="{{ module.form_company_info.redirect_id }}"
+        response_redirect_url="{{module.form_company_info.redirect_url}}"
+        gotowebinar_webinar_key="{{ module.form_company_info.gotowebinar_webinar_key }}"
+      %}
+      
+      <!--    personal details    -->
+      <div class="get-in-touch-form__personal-heading">{{ module.personal_heading }}</div>
+    </div>
+    
+	  {# end container #}
+ 	</div>
+</section>

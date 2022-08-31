@@ -1,0 +1,20 @@
+<header class="header">
+  <div class="container">
+    <div class="header__holder">
+      <!--      left     -->
+        <div class="header__left">
+          <a href="#">
+            {% if module.logo_img.src %}
+            <img src="{{ module.logo_img.src }}" alt="logo" class="header__logo"/>
+            {% endif %}
+          </a>
+        </div>
+      
+       <!--      right     -->
+        <div class="header__right">
+          {% menu id="{{ module.menu_field }}" %}
+        </div>
+
+    </div>
+  </div>
+</header>  

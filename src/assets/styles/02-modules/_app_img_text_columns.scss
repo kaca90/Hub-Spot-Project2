@@ -1,0 +1,47 @@
+.app-img-text-columns {
+    // margin-top: 215px;
+    background-color: #F2F2F2;
+    padding: 85px 0px 170px 0px;
+    
+    // top content
+    &__con {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .title {
+        max-width: 700px;
+    }
+
+    &__image {
+        width: 482.81px;
+        height: 287px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    // bottom content
+    &__row-field {
+        &-heading {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 67px;
+            letter-spacing: -0.571982px;
+            color: #09A0D9;
+        }
+
+        &-description {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 29px;
+            letter-spacing: -0.321429px;
+            color: #303030;
+        }
+    }
+}

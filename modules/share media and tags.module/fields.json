@@ -1,0 +1,25 @@
+[ {
+  "id" : "71cc2418-2057-d5eb-0948-28c20402202e",
+  "name" : "title_media",
+  "display_width" : null,
+  "label" : "Title Media",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Share this article"
+}, {
+  "id" : "b943cdc3-3f52-112d-5b68-6312f4805b0a",
+  "name" : "title_tags",
+  "display_width" : null,
+  "label" : "Title Tags",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Topics"
+} ]

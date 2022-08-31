@@ -1,0 +1,45 @@
+.share-media-and-tags {
+
+    // media
+    &__title-media {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: -0.321429px;
+        color: #303030;
+        margin-top: 50px;
+    }
+
+    // tags
+    &__tags {
+        &-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            letter-spacing: -0.321429px;
+            color: #303030;
+            margin-top: 50px;
+        }
+
+        &-link,
+        &-line {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-decoration-line: underline;
+            color: #293241;
+        }
+
+        &-line {
+            &:last-child {
+                display: none;
+            }
+        }
+
+    }
+
+
+}

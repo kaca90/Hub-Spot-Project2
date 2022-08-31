@@ -1,0 +1,105 @@
+.newsletter-blog {
+    // background-color: #15A3D9;
+    position: relative;
+    min-height: 650px;
+    width: 100%;
+    margin-top: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.105633);
+    border-radius: 4px;
+
+
+    &__con {
+        padding: 80px 0 105px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // title
+    &__title {
+        z-index: 5;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 37px;
+        letter-spacing: -0.642857px;
+        color: #089FD9;
+        max-width: 477px;
+        // width: 100%;
+    }
+
+    // heading
+    &__heading-con {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        width: 46px;
+        height: 46px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        background-position: center;
+    }
+
+    &__heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 53px;
+        letter-spacing: -0.642857px;
+        color: #089FD9;
+        margin-top: 30px;
+        text-align: right;
+        padding-right: 90px;
+    }
+
+    // form
+    &__form {
+        margin-top: 30px;
+    }
+
+    input {
+        background: #F3F3F3;
+        border-radius: 40.5px;
+        border: none;
+        margin-top: 17px;
+        padding: 20px 390px 20px 30px;
+
+
+        &::placeholder {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 44px;
+            text-align: center;
+            color: #19212F;
+            text-align: left;
+        }
+    }
+
+    // btn
+    input[type=submit] {
+        background: #19212F;
+        border-radius: 37.5px;
+        color: #FFFFFF;
+        margin-top: 50px;
+        margin-bottom: -40px;
+        z-index: 5;
+        font-size: 14px;
+        line-height: 26px;
+        padding: 23px 83px;
+        left: -50%;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

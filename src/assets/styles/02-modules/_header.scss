@@ -1,0 +1,42 @@
+.header {
+    background: linear-gradient(90deg, #19212F 1.68%, #089ED8 100%);
+
+    &__holder {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // left
+    &__left {
+        margin: 30px 0px 30px 0px;
+    }
+
+    // right
+    &__right {
+        display: flex;
+        margin: 30px 180px 30px 0px;
+
+        ul {
+            display: flex;
+        }
+    }
+
+    // li
+    .hs-menu-depth-1 {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 34px;
+        text-align: center;
+        list-style: none;
+        margin-left: 30px;
+
+        a {
+
+            color: #FFFFFF;
+        }
+
+    }
+
+}

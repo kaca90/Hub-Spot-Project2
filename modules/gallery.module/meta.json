@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "fontawesome-5.14.0:B%C3%BCrom%C3%B6bel-Experte%20GmbH%20%26%20Co.%20KG.",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 51996686529,
+  "label" : "Gallery",
+  "is_available_for_new_content" : true
+}

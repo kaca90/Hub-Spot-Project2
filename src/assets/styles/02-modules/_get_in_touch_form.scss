@@ -1,0 +1,132 @@
+.get-in-touch-form {
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 250px;
+
+    // con
+    &__con {
+        background: #f3f3f3;
+        border-radius: 5px;
+        padding: 56px 75px;
+        position: relative;
+        margin-top: 35px;
+    }
+
+    // text
+    &__heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 71px;
+        letter-spacing: -0.746952px;
+        color: #089FD9;
+
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 31px;
+        color: #303030;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        margin-top: 15px;
+    }
+
+    // company info
+    &__company-heading,
+    &__personal-heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        color: #202020;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    &__personal-heading {
+        position: absolute;
+        top: 635px;
+    }
+
+    &__company-description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #202020;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-top: 15px;
+    }
+
+    // form
+    form {
+        margin-top: 30px;
+
+        fieldset {
+            max-width: 100%;
+        }
+
+        label {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #9B9B9B;
+            margin-left: 8px;
+        }
+
+        input,
+        textarea,
+        select {
+            background: #FFFFFF;
+            border: 1px solid #DDE3E8;
+            border-radius: 3px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            width: 100%;
+            height: 54px;
+            padding-left: 18px;
+        }
+
+        textarea {
+            width: 100% !important;
+            height: 126px;
+            margin-bottom: 100px;
+        }
+
+        .input {
+            margin-left: 8px;
+        }
+
+        .hs-input {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #9F9F9F;
+        }
+
+        // submit
+        input[type=submit] {
+            background: #09A0D9;
+            box-shadow: 0px 2px 7px rgba(120, 137, 149, 0.254784);
+            border-radius: 3px;
+            color: #FFFFFF;
+            position: absolute;
+            bottom: -130px;
+            width: 30%;
+            transform: translateX(-50%) translateY(-50%);
+            left: 50%;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+    }
+}

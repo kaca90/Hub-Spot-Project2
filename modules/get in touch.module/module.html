@@ -1,0 +1,17 @@
+<section class="get-in-touch">
+	<div class="container">
+		<div class="get-in-touch__con">
+
+			<!--    text    -->
+			<div class="get-in-touch__text">
+				<div class="get-in-touch__heading">{{ module.heading }}</div>
+				<div class="get-in-touch__description">{{ module.description }}</div>
+			</div>
+		
+			<!--   btn     -->
+			<div class="get-in-touch__button">
+			<a href="{{ module.button.url_field.href }}" class="btn btn-primary {{ module.button.button_text && module.button.url_field.href ? "" : "hide" }}">{{ module.button.button_text }}</a>
+			</div>
+		</div>
+ 	</div>
+</section>

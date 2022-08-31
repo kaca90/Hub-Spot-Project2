@@ -1,0 +1,70 @@
+[ {
+  "id" : "4868c301-f88e-9d51-aa75-62949124e7fe",
+  "name" : "bg_img",
+  "display_width" : null,
+  "label" : "Bg Img",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "a46e6863-3aca-0928-3ed7-f55661393316",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text Field",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 2,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "03e4d3a7-e6c5-845b-d63c-dcd1f7732007",
+    "name" : "icon_img",
+    "display_width" : null,
+    "label" : "Icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "63757bb2-8a20-5f0f-7299-15773e24bdbf",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p><strong>Personnel connecting end-user devices to non-government-owned Wi-Fi, cellular, or wired networks must use a retransmission device (RD).&nbsp;</strong></p>\n<p>That’s a requirement of the NSA Commercial Solutions for Classified (CSfC) Mobile Access Capability Package (MA CP).&nbsp;<br><br>The MA CP draft version 2.4 requires a direct connection—not Wi-Fi—between the end-user device and RD. But providing a separate RD to personnel is problematic.&nbsp;</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "icon_img" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "description" : "<p><strong>Personnel connecting end-user devices to non-government-owned Wi-Fi, cellular, or wired networks must use a retransmission device (RD).&nbsp;</strong></p>\n<p>That’s a requirement of the NSA Commercial Solutions for Classified (CSfC) Mobile Access Capability Package (MA CP).&nbsp;<br><br>The MA CP draft version 2.4 requires a direct connection—not Wi-Fi—between the end-user device and RD. But providing a separate RD to personnel is problematic.&nbsp;</p>"
+  }
+} ]

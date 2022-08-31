@@ -1,0 +1,47 @@
+<section class="hero" style="background-image: url('{{ module.image_Bg.src }}')">
+  <div class="container">
+    <div class="row">
+   
+      <!--   text     -->
+      {# small heading, heading, description #}
+      <div class="col-md-6 col-mb-12">
+        <div class="con">
+          {% if module.small_heading %}
+            <div class="hero__subheading subheading">{{ module.small_heading }}</div>
+          {% endif %}
+          
+          {% if module.heading %}
+            <div class="hero__heading heading">{{ module.heading }}</div>
+          {% endif %}
+          
+          {% if module.description %}
+            <div class="hero__description description">{{ module.description }}</div>
+          {% endif %}
+
+          {# list #}
+          <ul class="hero__list-parent">
+           {% for item in module.hero_list %}
+              <li class="hero__list">
+                <svg class="hero__list-svg" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#09A0D9"/>
+                </svg>
+                <span>{{ item }}</span>
+              </li>
+            {% endfor %}    
+          </ul>
+          
+          <!--   btn     -->
+          <div class="hero__button">
+           <a href="{{ module.button.url_field.href }}" class="btn btn-primary {{ module.button.button_text && module.button.url_field.href ? "" : "hide" }}">{{ module.button.button_text }}</a>
+          </div>
+        </div>
+  
+      </div>
+
+    {# end row #}
+    </div>
+  {# end container #}
+  </div>
+</section>
+                                                                                                                                                
+

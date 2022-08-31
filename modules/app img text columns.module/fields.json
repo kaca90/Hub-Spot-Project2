@@ -1,0 +1,73 @@
+[ {
+  "id" : "76302e06-7c76-2344-d91b-3f397bc21afb",
+  "name" : "richtext_field",
+  "display_width" : null,
+  "label" : "Rich text",
+  "help_text" : "if you want to bold text in text editor, text will be blue ",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<strong>I need</strong> an edge device as well as hardware + data services:&nbsp;"
+}, {
+  "id" : "b90ad170-8c5e-ada3-c311-d2ccb83391ae",
+  "name" : "image",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "aad281a1-1424-1b2d-4975-5c150a036653",
+  "name" : "row_field",
+  "display_width" : null,
+  "label" : "Row Field",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 10,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "a2831705-f36a-0b00-f666-ee0e6041b2af",
+    "name" : "heading",
+    "display_width" : null,
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Archon ZV"
+  }, {
+    "id" : "8eb4b7e2-6448-654f-ea1c-018e9448ac3f",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "We built the world’s first unhackable laptop. By combining the reliability of a secure RTOS designed for military-grade systems with the utility of a commercial device to create Archon ZV, we’ve created a complete turnkey CSfC mobility solution. With this level of protection, even NSA security models can be deployed in the factory, saving on the cost, complexity, and overhead."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "heading" : "Archon ZV",
+    "description" : "We built the world’s first unhackable laptop. By combining the reliability of a secure RTOS designed for military-grade systems with the utility of a commercial device to create Archon ZV, we’ve created a complete turnkey CSfC mobility solution. With this level of protection, even NSA security models can be deployed in the factory, saving on the cost, complexity, and overhead."
+  }
+} ]

@@ -1,0 +1,117 @@
+[ {
+  "id" : "1318ffda-caff-60e8-239c-348a5572445f",
+  "name" : "text_field",
+  "display_width" : null,
+  "label" : "Text Field",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 2,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "8b10bd45-b494-e824-7ce5-3b8178996643",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "What is CSfC?"
+  }, {
+    "id" : "7d221f72-93d3-5a15-7c19-7ccf0188e43b",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "The U.S. government increasingly requires the immediate use of the market’s most advanced commercial hardware and software technologies within National Security Systems (NSS) to achieve mission objectives.That’s why NSA/CSS has established the Commercial Solutions for Classified (CSfC) program: To leverage commercial products for layered solutions that protect restricted NSS information.Utilizing innovations from the commercial marketplace allows U.S. government agencies to securely communicate through systems that can be deployed in the field in months, not years."
+  }, {
+    "id" : "60fa7be9-99dd-3fb9-4dae-6d11bb683209",
+    "name" : "button",
+    "display_width" : null,
+    "label" : "Button",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "95fdbc2b-e250-5cf4-4ce2-4b1377a5f4b3",
+      "name" : "button_text",
+      "display_width" : null,
+      "label" : "Button Text",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "placeholder" : "Read More",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Read More"
+    }, {
+      "id" : "91554b0e-a535-eede-2d71-048135564879",
+      "name" : "url_field",
+      "display_width" : null,
+      "label" : "URL",
+      "required" : false,
+      "locked" : false,
+      "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+      "type" : "url",
+      "default" : {
+        "type" : "EXTERNAL",
+        "href" : "https://www.google.com/",
+        "content_id" : null
+      }
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "button_text" : "Read More",
+      "url_field" : {
+        "type" : "EXTERNAL",
+        "href" : "https://www.google.com/",
+        "content_id" : null
+      }
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "What is CSfC?",
+    "description" : "The U.S. government increasingly requires the immediate use of the market’s most advanced commercial hardware and software technologies within National Security Systems (NSS) to achieve mission objectives.That’s why NSA/CSS has established the Commercial Solutions for Classified (CSfC) program: To leverage commercial products for layered solutions that protect restricted NSS information.Utilizing innovations from the commercial marketplace allows U.S. government agencies to securely communicate through systems that can be deployed in the field in months, not years.",
+    "button" : {
+      "button_text" : "Read More",
+      "url_field" : {
+        "type" : "EXTERNAL",
+        "href" : "https://www.google.com/",
+        "content_id" : null
+      }
+    }
+  }
+}, {
+  "id" : "c875b219-ede0-b9f5-2da4-f39e241e1e42",
+  "name" : "image",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+} ]

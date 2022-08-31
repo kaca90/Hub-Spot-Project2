@@ -1,0 +1,38 @@
+<section class="app-img-text-columns">
+  <div class="container">
+    <div class="row">
+      <!--    top content    -->
+      <div class="col-12">
+        <div class="app-img-text-columns__con">
+          <!--   text     -->
+          <div class="title">
+            {{ module.richtext_field }}
+          </div>
+
+          <!--    img    -->
+          {% if module.image.src %}
+            <img src="{{ module.image.src }}" class="app-img-text-columns__image"/>
+          {% endif %}
+        </div>
+      </div>
+      
+      {# bottom content #}
+      {% for item in module.row_field %} 
+        <div class="col-md-6">
+            <div class="app-img-text-columns__row-field">
+              <div class="app-img-text-columns__row-field-heading">
+                {{ item.heading}}
+              </div>
+               
+              <div class="app-img-text-columns__row-field-description">
+                {{ item.description}}
+              </div>   
+            </div>
+        </div>
+      {% endfor %}
+
+    {# end row #}
+    </div>
+  {# end container #}
+  </div>
+</section>

@@ -1,0 +1,45 @@
+.split-column {
+    position: relative;
+    min-height: 650px;
+    width: 100%;
+
+
+    // img
+    &__img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        z-index: 10;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &__con {
+        padding: 30px 70px;
+        background-color: #15A3D9;
+    }
+
+    &__heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.428571px;
+        color: #FFFFFF;
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.25px;
+        color: #FFFFFF;
+        margin-top: 14px;
+    }
+
+}

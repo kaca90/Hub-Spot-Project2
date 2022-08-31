@@ -1,0 +1,29 @@
+<section class="newsletter">
+	<!--  bg img  -->
+	<div class="newsletter__img" style="background-image: url('{{ module.image.src }}')" ></div>
+
+	<div class="container">
+		<div class="row">
+    		<!--    text    -->
+			<div class="col-sm-6 col-12">
+				<div class="newsletter__con">
+					<div class="newsletter__title">{{ module.title }}</div>
+					<div class="newsletter__heading">{{ module.heading }}</div>
+					<div class="newsletter__form">
+						{% form
+						form_to_use="{{ module.newsletter_form.form_id }}"
+						response_response_type="{{ module.newsletter_form.response_type }}"
+						response_message="{{ module.newsletter_form.message }}"
+						response_redirect_id="{{ module.newsletter_form.redirect_id }}"
+						response_redirect_url="{{module.newsletter_form.redirect_url}}"
+						gotowebinar_webinar_key="{{ module.newsletter_form.gotowebinar_webinar_key }}"
+						%}
+					</div>
+				</div>
+			</div>
+
+        <!--    end row    -->
+	  	</div>
+    <!--    end container  -->
+ 	</div>
+</section>

@@ -1,0 +1,55 @@
+.split-column-with-Bg-img {
+    background-color: #15A3D9;
+    position: relative;
+    min-height: 650px;
+    width: 100%;
+
+    // bg img
+    &__img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        z-index: 10;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        overflow: hidden;
+    }
+
+    &__con {
+        padding: 90px 0 105px;
+    }
+
+    .title {
+        color: #FFFFFF;
+        z-index: 5;
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: -0.321429px;
+        color: #FFFFFF;
+        z-index: 5;
+        margin-top: 22px;
+    }
+
+    // btn
+    &__button {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        z-index: 5;
+    }
+
+    .btn {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 24px 45px;
+    }
+
+
+}

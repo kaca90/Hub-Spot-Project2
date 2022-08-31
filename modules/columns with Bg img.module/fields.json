@@ -1,0 +1,158 @@
+[ {
+  "id" : "c72fb75e-9fb9-8977-c593-48e06ca5fb27",
+  "name" : "main_title",
+  "display_width" : null,
+  "label" : "Main Title",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<strong>&nbsp;I DON’T NEED</strong> an edge device; show me your hardware + service solution:"
+}, {
+  "id" : "22c4cc2e-0745-1935-c910-b73e50def01a",
+  "name" : "main_bold_text",
+  "display_width" : null,
+  "label" : "Main Bold Text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<strong>Data Storage </strong>+ <strong>Network Connectivity&nbsp;</strong>"
+}, {
+  "id" : "afc5d4e5-dcb1-9dc8-5431-695a23798bdb",
+  "name" : "main_description",
+  "display_width" : null,
+  "label" : "Main description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Securing a device is only half the job; you can operate confidently with our secure storage and network connectivity solutions. "
+}, {
+  "id" : "093c3eb7-86f6-7aa7-a214-064e78717fd0",
+  "name" : "column_field",
+  "display_width" : null,
+  "label" : "Column Field",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 3,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "48e0310c-0370-4a9d-003f-10cc1b38954f",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "1930100c-88d8-3e1b-c29e-4ef97c9f6c74",
+    "name" : "heading",
+    "display_width" : null,
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Connectivity"
+  }, {
+    "id" : "13b9b255-a786-8cce-f08c-f941a1ab6487",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "You can accomplish a lot with a private vault of limitless space at your disposal. Archon Cloud Storage was built to be the secure, cost-effective file system you need. With scalable architecture… deployable on commercial products, you can take advantage of the next generation of secure cloud services. Registrable and Accrediable with the NSA."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "image" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "heading" : "Connectivity",
+    "description" : "You can accomplish a lot with a private vault of limitless space at your disposal. Archon Cloud Storage was built to be the secure, cost-effective file system you need. With scalable architecture… deployable on commercial products, you can take advantage of the next generation of secure cloud services. Registrable and Accrediable with the NSA."
+  }
+}, {
+  "id" : "90ab8778-8f9c-80a6-ae9a-03f260fec2df",
+  "name" : "button",
+  "display_width" : null,
+  "label" : "Button",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "34e0c72f-d164-0d49-a283-107f663f881c",
+    "name" : "button_text",
+    "display_width" : null,
+    "label" : "Button Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Explore Options"
+  }, {
+    "id" : "70d2ee5b-c220-f999-4c75-913c84d33781",
+    "name" : "url_field",
+    "display_width" : null,
+    "label" : "URL",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "type" : "url",
+    "default" : {
+      "type" : "EXTERNAL",
+      "href" : "https://www.google.com/",
+      "content_id" : null
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "button_text" : "Explore Options",
+    "url_field" : {
+      "type" : "EXTERNAL",
+      "href" : "https://www.google.com/",
+      "content_id" : null
+    }
+  }
+}, {
+  "id" : "4064b88a-94e5-991c-5aec-da07d250cd9f",
+  "name" : "bg_image",
+  "display_width" : null,
+  "label" : "Bg Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "src" : ""
+  }
+} ]

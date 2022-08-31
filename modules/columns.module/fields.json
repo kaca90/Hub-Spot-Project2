@@ -1,0 +1,215 @@
+[ {
+  "id" : "acd43f0c-1b21-c0b5-d17b-c47b7b1f9d0f",
+  "name" : "richtext_main",
+  "display_width" : null,
+  "label" : "Rich text Main",
+  "help_text" : "if you want to bold text in text editor, text will be blue ",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<strong>Archon</strong> Secure exists to secure the edge for critical and classified communication. From our next-gen end-user devices to our hardware and data services, your CSfC solution is <strong>customizable</strong>, <strong>scalable</strong>, and <strong>NSA-approved</strong>.&nbsp;"
+}, {
+  "id" : "1dd60251-8c50-1334-035b-aecfbc9fb3fd",
+  "name" : "rich_text_bold",
+  "display_width" : null,
+  "label" : "Rich text Bold",
+  "help_text" : "if you want to bold text in text editor, text will be blue ",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "DCFC Connectivity <strong>+ </strong>Communication Solutions for:&nbsp;"
+}, {
+  "id" : "f062aba9-3ca7-06b5-eebb-9eaa21781684",
+  "name" : "column_field",
+  "display_width" : null,
+  "label" : "Column Field",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 4,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "3e4ba091-9a88-e5a4-4511-45a26e92e881",
+    "name" : "icon_image",
+    "display_width" : null,
+    "label" : "Icon image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "834a4a3c-eb3b-674a-63d6-680f91a6064d",
+    "name" : "heading",
+    "display_width" : null,
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Government"
+  }, {
+    "id" : "999cbf55-da63-1c71-23a5-1c643dbe9491",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "When your employer sets the standards, you better meet them. Archon Secure’s hardware + services solutions meet or exceed stringent compliance standards. "
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "icon_image" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "heading" : "Government",
+    "description" : "When your employer sets the standards, you better meet them. Archon Secure’s hardware + services solutions meet or exceed stringent compliance standards. "
+  }
+}, {
+  "id" : "f1a35e4e-00bd-4e0d-bc30-ff9c09955c1e",
+  "name" : "button",
+  "display_width" : null,
+  "label" : "Button",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "b5372f43-4ed2-7aa4-4665-fbb3e4516027",
+    "name" : "url_field",
+    "display_width" : null,
+    "label" : "URL",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "type" : "url",
+    "default" : {
+      "type" : "EXTERNAL",
+      "href" : "https://www.google.com/",
+      "content_id" : null
+    }
+  }, {
+    "id" : "8f482a0d-a5e6-a3a0-e40a-67f8cb6dcd42",
+    "name" : "button_text",
+    "display_width" : null,
+    "label" : "Button Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Explore Solutions"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "url_field" : {
+      "type" : "EXTERNAL",
+      "href" : "https://www.google.com/",
+      "content_id" : null
+    },
+    "button_text" : "Explore Solutions"
+  }
+}, {
+  "id" : "22910bfc-719c-11ea-5c58-902156c87850",
+  "name" : "small_heading",
+  "display_width" : null,
+  "label" : "Small Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "CSfC Communication Solutions"
+}, {
+  "id" : "7fb96edc-6eb4-86ca-34e2-de2125dbf39b",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Where do I start?"
+}, {
+  "id" : "95d5e7c2-676c-34c4-255e-a5afb5eb1355",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Building the right CSfC communication + network solution for your organization starts with understanding your EUD (end-user-device) needs. Archon Secure has CSfC hardware, services, and device solutions, so determining your starting point begins here:"
+}, {
+  "id" : "f70e726c-1fde-045a-de17-567b93382e58",
+  "name" : "bg_color",
+  "display_width" : null,
+  "label" : "Bg Color",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "light blue", "Light blue" ], [ "hide", "None" ] ],
+  "type" : "choice",
+  "default" : "light blue"
+}, {
+  "id" : "4d976976-a3a2-a1b0-0377-559e06bd8cd3",
+  "name" : "wave_img",
+  "display_width" : null,
+  "label" : "Wave img",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "show", "Show" ], [ "hide", "Hide" ] ],
+  "type" : "choice",
+  "default" : "show"
+}, {
+  "id" : "7255836d-7039-f7ae-347d-03c19a883153",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "The Archon SideArm advantage:"
+}, {
+  "id" : "476e3763-16bc-8939-ba17-a06533dec47e",
+  "name" : "line",
+  "display_width" : null,
+  "label" : "Line",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "show", "Show" ], [ "hide", "Hide" ] ],
+  "type" : "choice",
+  "default" : "show"
+} ]

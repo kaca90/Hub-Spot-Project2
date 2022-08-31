@@ -1,0 +1,77 @@
+<section class="columns_with_Bg_img">
+  {# wave bg img #}
+  <div class="columns_with_Bg_img__img">
+    <svg width="1600" height="1039" viewBox="0 0 1600 1039" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d_0_11)">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M1601 1031L0 1031L0 54.7189C0 54.7189 243.846 -1.25659 460.931 0.0288086C705.016 1.47424 926.464 97.3536 1146.79 106.378C1363.16 115.239 1601 42.4214 1601 42.4214L1601 1031Z" fill="white"/>
+      </g>
+      <defs>
+      <filter id="filter0_d_0_11" x="-4" y="0.00708008" width="1609" height="1038.99" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_11"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_11" result="shape"/>
+      </filter>
+      </defs>
+    </svg>
+  </div>
+  
+  {# text #}
+  <div class="container">
+    <div class="columns_with_Bg_img__main">
+      {# main title #}
+      <div class="columns_with_Bg_img__main-title title">
+        {{ module.main_title}}
+      </div>
+  
+      {# main bold text #}
+      <div class="columns_with_Bg_img__main-bold-text">{{ module.main_bold_text}}</div>
+      
+      <!--  main desc     -->
+      <div class="columns_with_Bg_img__main-desc">{{ module.main_description }}</div>
+    </div> 
+  </div>
+
+  {# bg img #}
+  <div class="columns-bg-img" style="background-image: url('{{ module.bg_image.src}}')">
+    <div class="container">
+      <div class="row">
+        <!--   column   -->
+        {% for item in module.column_field %}
+        <div class="col-md-4">
+          <div class="con">
+            <div class="columns_with_Bg_img__column">
+              <!--      icon         -->
+              <div style="background-image: url('{{ item.image.src }}')" class="columns_with_Bg_img__column-image"></div>
+              
+              <!--      text         -->
+              <div class="columns_with_Bg_img__column-heading">
+                {{ item.heading }}
+              </div>
+              <div class="columns_with_Bg_img__column-line"></div>
+              <div class="columns_with_Bg_img__column-description">
+                {{ item.description }}
+              </div>
+              
+              <!--   btn     -->
+              <div class="columns_with_Bg_img__button">
+                <a href="{{ module.button.url_field.href }}" class="btn btn-secondary {{ module.button.button_text && module.button.url_field.href ? "" : "hide" }}">{{ module.button.button_text }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      
+        {# end row #}
+      </div>
+      {#end container  #}
+    </div>
+    {# end bg img #}
+  </div>
+</section>
+
+

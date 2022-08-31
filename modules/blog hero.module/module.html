@@ -1,0 +1,29 @@
+<section class="blog-hero" style="background-image: url('{{ module.image_Bg.src }}')">
+  <div class="container">
+    <div class="row">
+   
+      <!--   text     -->
+      {# small heading, heading, description #}
+      <div class="col-md-6 col-mb-12">
+        <div class="con">
+          {% if module.small_heading %}
+            <div class="hero__subheading subheading">{{ module.small_heading }}</div>
+          {% endif %}
+          
+          {% if module.heading %}
+            <div class="hero__heading heading">{{ module.heading }}</div>
+          {% endif %}
+          
+          {% if module.description %}
+            <div class="hero__description description">{{ module.description }}</div>
+          {% endif %}
+
+        </div>
+  
+      </div>
+
+    {# end row #}
+    </div>
+  {# end container #}
+  </div>
+</section>

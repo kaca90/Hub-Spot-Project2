@@ -1,0 +1,26 @@
+<section class="big-points" >
+
+	<div class="container">
+		<!--     title     -->
+		<div class="big-points__title title">{{ module.title }}</div>
+		
+		<div class="row text-right">
+			<!--  bg img  -->
+			<div class="col-6 bg-img">
+				<div class="big-points__img" style="background-image: url('{{ module.bg_img.src }}')"></div>
+			</div>
+
+    		<!--    text    -->
+			<div class="col-6 text">
+			  {# icon #}
+				{% for item in module.text_field %}
+					<div class="big-points__con">
+						<div style="background-image: url('{{ item.icon_img.src }}')" class="big-points__column-image"></div>
+						<div class="big-points__description">{{ item.description }}</div>
+					</div>
+			  {% endfor %}
+		    </div>
+	  	</div>
+ 	</div>
+</section>
+

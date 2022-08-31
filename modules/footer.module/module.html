@@ -1,0 +1,65 @@
+<footer class="footer">
+  <div class="footer__bg-img">
+		<svg width="1609" height="493" viewBox="0 0 1609 493" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1609 492.078L0 492.078V54.7164C0 54.7164 245.064 -1.25656 463.234 0.0288696C708.539 1.47418 931.094 97.3492 1152.52 106.373C1369.97 115.234 1609 42.4195 1609 42.4195L1609 492.078Z" fill="#19212F"/>
+    </svg>
+	</div>
+  
+   <div class="container">
+     <div class="row">
+
+      {# social icons #}
+      <div class="col-md-12 col-12">
+        <div class="footer__social">
+          {# text #}
+          <div class="footer__social-text">{{ module.text_social }}</div>
+          
+          {# img #}
+          <div class="footer__social-img">
+          {% for item in module.social %}
+            <a href="{{ item.social_icons_url.href }}" class="footer__social-icons">
+              <img class="footer__icon" src="{{ item.social_icons.src}}" alt="Social-icon"/>
+            </a>
+          {% endfor %}
+          </div>
+        </div>  
+      </div>
+
+      <!--     logo    -->
+      <div class="col-md-5 col-12">
+       <div class="footer__logo-details">
+         {% if module.footer_logo.src %}
+         <img class="footer__logo" src="{{ module.footer_logo.src }}" alt="Footer-Logo"/>
+         {% endif %}
+         <div class="footer__description">{{ module.description }}</div>
+       </div>
+      </div>
+       
+      <!--   link menu      -->
+      <div class="col-md-7 col-12">
+       <div class="footer__links">
+          {% for item in module.link %}
+            <a class="footer__links-link" href="#">{{ item }}</a>
+          {% endfor %}
+       </div>
+      </div> 
+    </div>
+  </div>
+
+  {# footer copyright #}
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="footer-copyright__content">
+        {# left content #}
+        <div class="footer-copyright__copy">Copyright Archon</div>
+
+        {# right content #}
+        <a href="#" class="footer-copyright__terms">Priviacy Policy     |    Terms & Conditions</a>
+      </div>
+    </div> 
+  </div>
+
+</footer>
+
+
+

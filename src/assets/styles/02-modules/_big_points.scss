@@ -1,0 +1,76 @@
+.big-points {
+    position: relative;
+    min-height: 783px;
+    width: 100%;
+    margin-top: 75px;
+    background-color: #F5F5F5;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .text-right {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    // bg img
+    .bg-img {
+        grid-row: 1;
+        grid-column: 1;
+        max-width: 100%;
+        // gap: 30px;
+    }
+
+    &__img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    // text
+    .text {
+        grid-row: 1;
+        grid-column: 2;
+        max-width: 100%;
+        display: grid;
+        gap: 30px;
+    }
+
+    &__con {
+        position: relative;
+        width: 100%;
+        background: #19212F;
+        padding: 36px 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // icon
+    &__column-image {
+        width: 62px;
+        height: 62px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        background-position: center;
+    }
+
+    &__description {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.25px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        margin-top: 15px;
+    }
+}

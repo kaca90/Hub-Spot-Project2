@@ -1,0 +1,33 @@
+<section class="newsletter-blog">
+	<div class="container">
+    <!--    text    -->
+    <div class="newsletter-blog__con">
+      {# title #}
+      <div class="newsletter-blog__title">{{ module.title }}</div>
+
+      {# heading #}
+      <div class="newsletter-blog__heading-con">
+        <div class="newsletter-blog__icon">
+          <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M26.2793 46C26.6162 46 26.9082 45.7979 27.043 45.5059L45.9326 1.14551C45.9775 1.0332 46 0.943359 46 0.808594C46 0.359375 45.6406 0 45.1689 0C45.0566 0 44.9443 0.0224609 44.8545 0.0673828L0.494141 18.957C0.202148 19.0918 0 19.3838 0 19.7207C0 20.0576 0.202148 20.3496 0.516602 20.4619L18.2607 27.7393L25.5156 45.4834H25.5381C25.6504 45.7754 25.9424 46 26.2793 46ZM2.94238 19.6982L41.5977 3.23438L18.71 26.1445L2.94238 19.6982ZM19.8555 27.29L26.3018 43.0352L42.7656 4.40234L19.8555 27.29Z" fill="#2C516C"/>
+          </svg>
+        </div>
+        <div class="newsletter-blog__heading">{{ module.heading }}</div>
+      </div>
+
+      {# form #}
+      <div class="newsletter-blog__form">
+        {% form
+          form_to_use="{{ module.newsletter_blog_form.form_id }}"
+          response_response_type="{{ module.newsletter_blog_form.response_type }}"
+          response_message="{{ module.newsletter_blog_form.message }}"
+          response_redirect_id="{{ module.newsletter_blog_form.redirect_id }}"
+          response_redirect_url="{{module.newsletter_blog_form.redirect_url}}"
+          gotowebinar_webinar_key="{{ module.newsletter_blog_form.gotowebinar_webinar_key }}"
+        %}
+      </div>
+    </div>
+     
+    <!--    end container  -->
+ 	</div>
+</section>

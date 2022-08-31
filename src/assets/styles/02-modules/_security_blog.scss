@@ -1,0 +1,40 @@
+.security-blog {
+    background: #09A0D9;
+    margin-top: -100px;
+
+    &-con {
+
+        // vertical line
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     width: 9px;
+        //     height: 100%;
+        //     background: #19212F;
+        //     left: 0;
+        //     top: 0;
+        // }
+
+        padding: 45px 80px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.428571px;
+        color: #FFFFFF;
+
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.25px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+}

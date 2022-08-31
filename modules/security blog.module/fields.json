@@ -1,0 +1,25 @@
+[ {
+  "id" : "6beab1c9-0a58-2929-f197-ab2615b32f4a",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Enhanced security "
+}, {
+  "id" : "768395a8-f733-2c57-850a-7dcf2625516f",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra vel lacus a aliquet. Proin libero ipsum, euismod nec egestas at, dapibus suscipit dolor. "
+} ]

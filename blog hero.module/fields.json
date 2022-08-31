@@ -1,0 +1,51 @@
+[ {
+  "id" : "9afb42d6-6937-a5f9-40be-4bbaabe5c2ad",
+  "name" : "image_bg",
+  "display_width" : null,
+  "label" : "image Bg",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "72c8c2d8-6866-0c2b-2288-d03e654e2bb9",
+  "name" : "small_heading",
+  "display_width" : null,
+  "label" : "Small Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "CSfC Communication Solutions"
+}, {
+  "id" : "acd41d07-68da-03c7-a4a5-a5f7b86a503d",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<strong>Blog</strong> title in this space right here"
+}, {
+  "id" : "ad440f3b-3fad-4f04-36b6-5d07061d34e8",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "CSfC compliant hardware + service solutions to make securing your Edge simple, fast, and cost-effective. "
+} ]

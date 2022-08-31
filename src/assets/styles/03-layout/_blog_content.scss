@@ -1,0 +1,48 @@
+.blog {
+
+    // wave bg img
+    &__bg-img {
+        width: 100%;
+        height: auto;
+        bottom: 0;
+
+        svg {
+            width: 100%;
+            height: auto;
+            position: relative;
+            bottom: 0;
+            top: -105px;
+            z-index: 1;
+
+        }
+
+    }
+
+    &-content {
+        position: relative;
+        top: -170px;
+        z-index: 2;
+    }
+
+    h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 67px;
+        letter-spacing: -0.571982px;
+        color: #2C516C;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: -0.321429px;
+        color: #303030;
+    }
+
+
+    // right
+ 
+}

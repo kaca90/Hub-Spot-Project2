@@ -1,0 +1,23 @@
+<section class="split-column">
+	<div class="container">
+		<div class="row">
+			<!--    text    -->
+			<div class="col-6">
+				{% for item in module.text_field %}
+				<div class="split-column__con">
+					<div class="split-column__heading">{{ item.title }}</div>
+					<div class="split-column__description">{{ item.description }}</div>
+				</div>
+				{% endfor %} 
+			</div>
+			
+
+			<!--  img  -->
+			<div class="col-6">
+				<div class="split-column__img" style="background-image: url('{{ module.image.src }}')" ></div>
+			</div>
+        <!--    end row    -->
+	  	</div>
+    <!--    end container  -->
+ 	</div>
+</section>

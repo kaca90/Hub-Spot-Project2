@@ -1,0 +1,13 @@
+<section class="gallery">
+  <div class="container">
+    <div class="row">
+      {% for item in module.image %}
+        {% if item.src %}
+        <div class="con">
+          <img class="gallery__img" src="{{ item.src }}" alt="Social-icon"/>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

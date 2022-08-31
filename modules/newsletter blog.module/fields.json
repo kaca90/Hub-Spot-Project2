@@ -1,0 +1,34 @@
+[ {
+  "id" : "5ea3e4e1-3c8b-2a84-6a96-dc37d6504fe3",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<span style=\"color: #2c516c;\">WANT TO STAY UP TO DATE WITH </span>INDUSTRY TIPS, NEWS &amp; TOPICS?"
+}, {
+  "id" : "fc8c7819-e7e8-a73f-00fb-8adf9ba28f97",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Heading",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Signup to our Newsletter"
+}, {
+  "id" : "927a0442-77c4-2ad4-c216-8428db63e5c6",
+  "name" : "newsletter_blog_form",
+  "display_width" : null,
+  "label" : "Newsletter Blog Form",
+  "required" : false,
+  "locked" : false,
+  "type" : "form",
+  "default" : {
+    "form_id" : "a55c88d9-0079-4dc5-ad32-debc57ddb41a",
+    "response_type" : "inline",
+    "message" : "Thanks for submitting the form.",
+    "gotowebinar_webinar_key" : null,
+    "form_type" : "HUBSPOT"
+  }
+} ]

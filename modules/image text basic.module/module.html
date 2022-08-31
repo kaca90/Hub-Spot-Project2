@@ -1,0 +1,34 @@
+<section class="image-text-basic">
+{# bg img #}
+  <div class="image-text-basic__bg-img {{ module.wave_img == "show" ? "show" : "hide" }}">
+    <svg width="1609" height="227" viewBox="0 0 1609 227" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1609 227L759.5 227L0 227V54.7164C0 54.7164 245.064 -1.25662 463.234 0.0288086C708.539 1.47412 931.094 97.3492 1152.52 106.373C1369.97 115.234 1609 42.4195 1609 42.4195V227Z" fill="white"/>
+    </svg>
+  </div>
+
+
+  <div class="container">
+  
+    <!--   text     -->
+    <div class="image-text-basic-con">
+      {% if module.icon.src %}
+        <img class="image-text-basic__icon" src="{{ module.icon.src }}" alt="icon-img"/>
+      {% endif %}
+      
+      {% if module.heading %}
+        <div class="image-text-basic__heading">{{ module.heading }}</div>
+      {% endif %}
+      
+      {% if module.small_bold_heading%}
+        <div class="image-text-basic__small-bold-heading">{{ module.small_bold_heading}}</div>
+      {% endif %}
+      
+      {% if module.description %}
+        <div class="image-text-basic__description">{{ module.description }}</div>
+      {% endif %}
+    </div>
+  
+  </div>
+</section>
+
+

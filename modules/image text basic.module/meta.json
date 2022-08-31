@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "fontawesome-5.14.0:Clipboard%20List:SOLID",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 51955742437,
+  "label" : "Image Text Basic",
+  "is_available_for_new_content" : true
+}

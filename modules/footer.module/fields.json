@@ -1,0 +1,121 @@
+[ {
+  "id" : "4d082346-f696-9a4e-a360-13947cfdd52f",
+  "name" : "footer_logo",
+  "display_width" : null,
+  "label" : "Footer Logo",
+  "required" : false,
+  "locked" : true,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "8a62c1be-78ac-67e6-be28-efd692e82369",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "You can accomplish a lot with a private vault of limitless space at your disposal. Archon Cloud Storage was built to be the secure, cost-effective file system you need. With scalable architecture deployable on commercial products, you can take advantage of the next generation of secure cloud services. Registrable and Accrediable with the NSA."
+}, {
+  "id" : "e755a6d2-1992-6be2-4d71-f426277427af",
+  "name" : "link",
+  "display_width" : null,
+  "label" : "Link",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : null,
+    "max" : 16,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "About"
+}, {
+  "id" : "99ef1589-3f7c-9318-d882-7d002c0bc8f7",
+  "name" : "social",
+  "display_width" : null,
+  "label" : "Social",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : null,
+    "max" : 6,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "6f0fab32-c2fc-49dc-0e84-50d5e826361a",
+    "name" : "social_icons",
+    "display_width" : null,
+    "label" : "Social icons",
+    "required" : false,
+    "locked" : true,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "88a86959-4dee-3771-2b76-736a785232d5",
+    "name" : "social_icons_url",
+    "display_width" : null,
+    "label" : "Social Icons URL",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "type" : "url",
+    "default" : {
+      "content_id" : null,
+      "href" : "",
+      "type" : "EXTERNAL"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "social_icons" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "social_icons_url" : {
+      "content_id" : null,
+      "href" : "",
+      "type" : "EXTERNAL"
+    }
+  }
+}, {
+  "id" : "5c1ec93e-7d71-2d64-6235-e1b64a799d09",
+  "name" : "text_social",
+  "display_width" : null,
+  "label" : "Text Social",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Connect with us"
+} ]

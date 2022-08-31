@@ -1,0 +1,46 @@
+<!--
+  templateType: blog_post
+  isAvailableForNewContent: true
+  label: Blog Use Case Content (KB)
+  screenshotPath: ../images/template-previews/blog.png
+-->
+
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+    <main id="main-content" class="body-container-wrapper">
+        {# imported blog hero #}
+        {% module 'blog hero' path='../modules/blog hero' %}
+        <section class="blog">
+            {# bg img #}
+            <div class="blog__bg-img">
+            <svg width="1609" height="227" viewBox="0 0 1609 227" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1609 227L759.5 227L0 227V54.7164C0 54.7164 245.064 -1.25662 463.234 0.0288086C708.539 1.47412 931.094 97.3492 1152.52 106.373C1369.97 115.234 1609 42.4195 1609 42.4195V227Z" fill="white"/>
+            </svg>
+            </div>
+            <div class="container">
+                <div class="row">
+                    {# blog content - left#}
+                    <div class="col-6">
+                       
+                    </div>
+
+                    {# right #}
+                    <div class="col-6">
+                        <div class="blog__right">
+                           
+                        </div>
+                    </div>
+
+                {# end row #}
+                </div>
+
+                {# end container #}
+            </div>
+            {# newsletter #}
+            {% module 'newsltter' path='../modules/newsletter' %}
+            {# get in touch #}
+            {% module 'get in touch' path='../modules/get in touch' %}
+        </div>   
+    </main>
+{% endblock body %}

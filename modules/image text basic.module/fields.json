@@ -1,0 +1,63 @@
+[ {
+  "id" : "00c960f8-3419-7a10-6ffe-494f2493ad6f",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Our Vision"
+}, {
+  "id" : "bf7f98f9-5583-ea31-134a-834ab9e4a228",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Protect the world by securing the data and information that underpins national security and powers economies."
+}, {
+  "id" : "887325a8-a1e0-f308-d0cf-c7a92360b267",
+  "name" : "icon",
+  "display_width" : null,
+  "label" : "Icon",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "00a28eb8-1bbd-737a-f95e-7445298cb668",
+  "name" : "wave_img",
+  "display_width" : null,
+  "label" : "Wave img",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "show", "Show" ], [ "hide", "Hide" ] ],
+  "type" : "choice"
+}, {
+  "id" : "f2c30502-2ec6-f7a5-514e-1f8d1efa25b7",
+  "name" : "small_bold_heading",
+  "display_width" : null,
+  "label" : "Small Bold Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+} ]

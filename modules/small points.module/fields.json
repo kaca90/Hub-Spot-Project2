@@ -1,0 +1,156 @@
+[ {
+  "id" : "e6055681-9c47-f1af-179d-3a74bc07344a",
+  "name" : "bg_img",
+  "display_width" : null,
+  "label" : "Bg Img",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "1fd8dd7a-35a2-9aa0-f143-eb15ca138b34",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : " Let’s Dive in Deeper"
+}, {
+  "id" : "9e53d096-6e68-e4ab-f534-4b4be77e2572",
+  "name" : "small_point",
+  "display_width" : null,
+  "label" : "Small Point",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "f8495819-5e27-ea15-da91-5ae34f214403",
+    "name" : "heading",
+    "display_width" : null,
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Enforced compliance with CSfC MA-CP "
+  }, {
+    "id" : "dd0cd650-93b6-8fa5-ca96-b8cef23f36a2",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra vel lacus a aliquet. Proin libero ipsum, euismod nec egestas at, dapibus suscipit dolor. "
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "heading" : "Enforced compliance with CSfC MA-CP ",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra vel lacus a aliquet. Proin libero ipsum, euismod nec egestas at, dapibus suscipit dolor. "
+  }
+}, {
+  "id" : "e511406f-bc6a-89b7-5074-6fcee79a074f",
+  "name" : "big_point",
+  "display_width" : null,
+  "label" : "Big Point",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 2,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "92b0c575-02d4-320d-874c-08406785c43b",
+    "name" : "icon_img",
+    "display_width" : null,
+    "label" : "Icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "3dc57768-f77e-8214-97cc-8e56be7d2d2e",
+    "name" : "heading",
+    "display_width" : null,
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Point 1"
+  }, {
+    "id" : "7204fafe-2a60-f274-c39f-f5952d388f9e",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "With its own processor, memory, Wi-Fi chip, LTE chip, and separate firewalls for Wi-Fi, cellular, and Ethernet, Archon SideArm performs network address translation (NAT), port forwarding, packet filtering, and protocol breaks as specified in the MA-CP. Archon SideArm is designed to meet MA CP draft version 2.4 requirements as well the requirements expected in version 2.5."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "icon_img" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    },
+    "heading" : "Point 1",
+    "description" : "With its own processor, memory, Wi-Fi chip, LTE chip, and separate firewalls for Wi-Fi, cellular, and Ethernet, Archon SideArm performs network address translation (NAT), port forwarding, packet filtering, and protocol breaks as specified in the MA-CP. Archon SideArm is designed to meet MA CP draft version 2.4 requirements as well the requirements expected in version 2.5."
+  }
+}, {
+  "id" : "e907a37b-ef9a-26ed-14e3-6495c537d64e",
+  "name" : "module_order",
+  "display_width" : null,
+  "label" : "Module Order",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "image-left", "Image Left" ], [ "image-right", "Image Right" ] ],
+  "type" : "choice",
+  "default" : "image-left"
+}, {
+  "id" : "2dc52c1e-54a6-beff-4d20-984445416ada",
+  "name" : "bg_color",
+  "display_width" : null,
+  "label" : "Bg color",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "beige", "Beige" ], [ "white", "White" ] ],
+  "type" : "choice",
+  "default" : "beige"
+} ]

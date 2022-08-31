@@ -1,0 +1,37 @@
+<section class="small-points {{ module.bg_color == 'beige' ? 'beige-color' : 'white-color' }}">
+	<div class="container">
+    	{# title #}
+		<div class="small-points__title title">{{ module.title }}</div>
+
+		<div class="row text-right {{ module.module_order == 'image-right' ? ' order-reverse' : '' }}">
+			<!--  bg img  -->
+			<div class="col-6 bg-img">
+				<div class="small-points__img" style="background-image: url('{{ module.bg_img.src }}')"></div>
+			</div>
+
+    		<!--    text    -->
+			<div class="col-6 text">
+				<!--      small point    -->
+				<div class="small-points__small-con">
+					<div class="small-points__small-con__heading">{{ module.small_point.heading }}</div>
+					<div class="small-points__description">{{ module.small_point.description  }}</div>
+				</div>
+        
+        		<!-- 		big point	   -->
+				{% for item in module.big_point %}
+					<div class="small-points__big-con">
+						<div style="background-image: url('{{ item.icon_img.src }}')" class="small-points__big-con__column-image"></div>
+						<div class="small-points__text">
+							<div class="small-points__big-con__heading">{{ item.heading }}</div>
+							<div class="small-points__description">{{ item.description }}</div>
+						</div>
+					</div>
+			  {% endfor %}
+		    </div>
+			{# end row #}	
+	  	</div>
+		{# end container #}
+ 	</div>
+</section>
+
+

@@ -1,0 +1,21 @@
+.table-of-contents {
+    margin-top: -64px;
+
+    &__heading {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 67px;
+        letter-spacing: -0.571982px;
+        color: #2C516C;
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        letter-spacing: -0.321429px;
+        color: #303030;
+    }
+}

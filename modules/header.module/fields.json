@@ -1,0 +1,27 @@
+[ {
+  "id" : "553e1f66-7d8d-c48e-7029-617745276c1a",
+  "name" : "logo_img",
+  "display_width" : null,
+  "label" : "Logo img",
+  "required" : false,
+  "locked" : true,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "426c100e-36a7-8640-650b-18fe358d61de",
+  "name" : "menu_field",
+  "display_width" : null,
+  "label" : "Menu",
+  "required" : false,
+  "locked" : true,
+  "type" : "menu",
+  "default" : 51771074758
+} ]

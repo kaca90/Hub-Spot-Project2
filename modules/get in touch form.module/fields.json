@@ -1,0 +1,76 @@
+[ {
+  "id" : "7b4c6f15-1f70-3d1e-c146-b00fa8e6e720",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Get in touch"
+}, {
+  "id" : "65246402-33bd-e13e-dbee-57a33c8cd732",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document."
+}, {
+  "id" : "6504b10f-9aa5-d7c0-0170-4d0dbdbc83b6",
+  "name" : "company_heading",
+  "display_width" : null,
+  "label" : "Company Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "COMPANY DETAILS:"
+}, {
+  "id" : "478ec703-00a0-449f-7c68-c8c42dd9a7c1",
+  "name" : "company_description",
+  "display_width" : null,
+  "label" : "Company Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "All emails from the system will be sent to this address. The email address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by email."
+}, {
+  "id" : "36c6f2c0-0b93-8737-216c-91c52edb0642",
+  "name" : "personal_heading",
+  "display_width" : null,
+  "label" : "Personal Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "YOUR DETAILS"
+}, {
+  "id" : "0357e57f-8d74-925d-3e9b-861475b31780",
+  "name" : "form_company_info",
+  "display_width" : null,
+  "label" : "Form Company Info",
+  "required" : false,
+  "locked" : false,
+  "type" : "form",
+  "default" : {
+    "form_id" : "3d662249-d60d-4222-b95e-58b63ac81510",
+    "response_type" : "inline",
+    "message" : "Thanks for submitting the form.",
+    "gotowebinar_webinar_key" : null,
+    "form_type" : "HUBSPOT"
+  }
+} ]

@@ -1,0 +1,115 @@
+[ {
+  "id" : "b059dc64-6cbb-82e8-ef39-79dbbe76ede2",
+  "name" : "small_heading",
+  "display_width" : null,
+  "label" : "Small Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "CSfC Communication Solutions"
+}, {
+  "id" : "44fcc4fb-de4a-3956-a9e9-dca7046bf373",
+  "name" : "heading",
+  "display_width" : null,
+  "label" : "Heading",
+  "help_text" : "if you want to bold text in text editor, text will be blue ",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "SECURING YOU EDGE TO EDGE.&nbsp;"
+}, {
+  "id" : "e9ff504c-e997-1d05-cd17-4b3b5922b184",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "CSfC compliant hardware + service solutions to make securing your Edge simple, fast, and cost-effective. "
+}, {
+  "id" : "f7cc9b7d-972f-71f6-22e6-33816c752f7f",
+  "name" : "hero_list",
+  "display_width" : null,
+  "label" : "Hero List",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 3,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Rapid-deployment"
+}, {
+  "id" : "40ba164f-9b51-cb26-1f0d-0b9ad88fbc67",
+  "name" : "button",
+  "display_width" : null,
+  "label" : "Button",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "17931b8c-b82a-1f93-ca43-e7ab87dcc067",
+    "name" : "button_text",
+    "display_width" : null,
+    "label" : "Button Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Explore Solutions"
+  }, {
+    "id" : "2a14f4d6-7a87-32c3-7ced-a72b3d68f293",
+    "name" : "url_field",
+    "display_width" : null,
+    "label" : "Button URL",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+    "type" : "url",
+    "default" : {
+      "type" : "EXTERNAL",
+      "href" : "https://www.google.com/",
+      "content_id" : null
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "button_text" : "Explore Solutions",
+    "url_field" : {
+      "type" : "EXTERNAL",
+      "href" : "https://www.google.com/",
+      "content_id" : null
+    }
+  }
+}, {
+  "id" : "acd3b95e-8968-f2a7-f54d-29a12168ffed",
+  "name" : "image_Bg",
+  "display_width" : null,
+  "label" : "Image Bg",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+} ]

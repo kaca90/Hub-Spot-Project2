@@ -1,0 +1,37 @@
+.get-in-touch {
+    background-color: #19212F;
+    height: 452px;
+
+    &__con {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 67px;
+        letter-spacing: -0.980541px;
+        color: #FFFFFF;
+        padding-top: 100px;
+    }
+
+    &__description {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+        color: #FFFFFF;
+        margin-top: 5px;
+    }
+
+    &__button {
+        margin-top: 70px;
+
+    }
+}
